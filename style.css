@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+
+}
+.logo {
+  display: flex;
+}
+h1 {
+  font-family: cursive;
+}
+h2{
+  font-size: 12px;
+  color: grey;
+}
+.printer {
+  justify-content: right;
+}
+.text li{
+  list-style-type: none;
+  padding-bottom: 2rem;
+  justify-content: space-around;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+#list {
+  display: relative;
+  margin-right: 15%;
+  margin-left: 15%;
+}
