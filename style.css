@@ -33,3 +33,15 @@ h2{
   margin-right: 15%;
   margin-left: 15%;
 }
+
+.author {
+  display:inline;
+}
+.name {
+  font-size: 20px;
+  padding-right: 3rem;
+  padding-left: 1rem;
+}
+.bio {
+
+}
