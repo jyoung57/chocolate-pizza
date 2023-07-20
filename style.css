@@ -1,47 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Yellowtail&display=swap');
+header, main, footer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
 nav {
   display: flex;
-
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 }
+
+h1 {
+  margin: 0;
+  font-family: 'Yellowtail', 'san-serif';
+  font-size: 40px;
+}
+
 .logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
-h1 {
+
+.logo p {
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+
+.mainheader {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 14px;
+  padding-top: 10px;
+  align-items: flex-start;
+}
+
+.mainheader p {
+  margin-left: 5px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-media2 {
+  display: flex;
+  height: 25px;
+  gap: 3px;
+}
+
+.social-media {
+display: flex;
+height: 25px;
+gap: 3px;
+}
+
+.horizontalLines {
+  height: 4px;
+  background-image: url(images/hr-img.png);
+  width: 100%;
+  margin: 0;
+}
+
+.cp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.h2p {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2p h2{
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.h2p p {
+  margin: 0;
   font-family: 'Oswald', sans-serif;
-}
-h2{
-  font-family: 'Neucha', cursive;
   font-size: 12px;
   color: grey;
 }
+
 .printer {
-  justify-content: right;
+  display: flex;
+  padding-top: 2rem;
+  height: 10px;
+  align-items: center;
+  gap: 2px;
 }
-.text li{
+
+.printer p {
+  margin: 0px;
+  font-size: 10px;
+
+}
+
+.choco-pizza {
+  width: 100%;  
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.text li {
   list-style-type: none;
+  padding-top: 10px;
   padding-bottom: 2rem;
-  justify-content: space-around;
-  margin-left: 15%;
-  margin-right: 15%;
+  text-indent: 25px;
+  width: 100%;
   font-size: 20px;
+  color: gray;
 }
+
+.indexCard {
+  background-image: url(images/list-bg.png);
+  width: 100%;
+  background-size: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  line-height: 25px;
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+}
+
+.indexCard ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+}
+
+input:checked+span {
+  text-decoration: line-through;
+}
+
+main {
+  border-bottom: 1px solid rgb(235, 230, 230);
+  margin-bottom: 50px;
+}
+
 .main {
   display: flex;
   justify-content: center;
 }
-#list {
-  display: relative;
-  margin-right: 15%;
-  margin-left: 15%;
-}
 
 .author {
-  display:inline;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.name {
-  font-size: 20px;
-  padding-right: 3rem;
-  padding-left: 1rem;
+
+.author button {
+  width: 225px;
+  height: 50px;
+  background-color: brown;
+  color: white;
+  font-size: 18px;
+  opacity: .7;
+  padding: 7px;
 }
-.bio {
+
+.profile {
+  display: flex;
+  height: 50px;
+  gap: 10px;
+}
+
+.profile div {
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.profile h2, .profile p {
+  margin: 0%;
 
 }
+
+.profile h2 {
+  font-size: 35px;
+}
+
+.profile p {
+  font-size: 17px;
+}
+
+.smallLogo {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -715px;
+  left: 50%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 100px;
+  color: gray;
+  opacity: .7;
+  
+}
+
+footer p {
+  margin: 0;
+}
+
